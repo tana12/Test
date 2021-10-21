@@ -40,7 +40,7 @@ public class BeachBoysTest {
   public void beachBoys() {
     driver.get("https://www.google.com/");
     driver.manage().window().setSize(new Dimension(1184, 824));
-    driver.findElement(By.name("q")).sendKeys("beach boys band");
+    driver.findElement(By.name("q")).sendKeys("beach boys");
     driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
     driver.findElement(By.linkText("Images")).click();
     driver.findElement(By.cssSelector(".islrc > .isv-r:nth-child(1) .rg_i")).click();
